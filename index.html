@@ -1,0 +1,2434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Kapin Kumar Patel — Matrimonial &amp; Professional Biodata</title>
+  <meta name="description" content="Official Matrimonial & Professional Biodata of Kapin Kumar Patel. Software Developer & Designer based in Ahmedabad, Gujarat, originating from Rewa, Madhya Pradesh.">
+  <meta name="theme-color" content="#07090C">
+
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="Kapin Kumar Patel — Matrimonial &amp; Professional Biodata">
+  <meta property="og:description" content="Software Developer (B.Tech IT, 8.18 GPA) · Height: 6'0&quot; · Age: 25 Yrs · Rewa, M.P. &amp; Ahmedabad, Gujarat.">
+  <meta property="og:image" content="assets/images/profile_transparent.png">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Dancing+Script:wght@600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #07090C;
+      --bg-surface: #0E131A;
+      --bg-card: #151C26;
+      --bg-card-hover: #1E2837;
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(228, 23, 47, 0.4);
+      
+      --accent-red: #E4172F;
+      --accent-red-hover: #F42841;
+      --accent-red-glow: rgba(228, 23, 47, 0.45);
+      --accent-rose: #FB7185;
+      --accent-gold: #F59E0B;
+      --accent-gold-glow: rgba(245, 158, 11, 0.3);
+      --accent-emerald: #10B981;
+      
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --text-dim: #64748B;
+      
+      --radius-sm: 10px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      --radius-full: 9999px;
+      
+      --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.35);
+      --shadow-md: 0 12px 36px rgba(0, 0, 0, 0.55);
+      --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.7);
+      --shadow-glow: 0 0 45px var(--accent-red-glow);
+      --transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      height: 100%;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* FULL SCREEN CANVAS & CINEMATIC AMBIENT PARTICLES */
+    #ambientCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.65;
+    }
+
+    .ambient-glow {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(140px);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.18;
+      animation: pulseGlow 10s ease-in-out infinite alternate;
+    }
+    .glow-1 {
+      top: -10%;
+      left: -10%;
+      width: 60vw;
+      height: 60vw;
+      background: var(--accent-red);
+    }
+    .glow-2 {
+      bottom: -15%;
+      right: -10%;
+      width: 55vw;
+      height: 55vw;
+      background: var(--accent-gold);
+      animation-delay: -5s;
+    }
+    .glow-3 {
+      top: 40%;
+      left: 35%;
+      width: 40vw;
+      height: 40vw;
+      background: var(--accent-emerald);
+      opacity: 0.07;
+    }
+
+    @keyframes pulseGlow {
+      0% { transform: scale(1) translate(0, 0); opacity: 0.14; }
+      100% { transform: scale(1.22) translate(35px, 25px); opacity: 0.24; }
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4, .display-font {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .serif-title {
+      font-family: 'Cinzel', serif;
+      letter-spacing: 0.06em;
+    }
+    .script-font {
+      font-family: 'Dancing Script', cursive;
+      color: var(--accent-rose);
+      font-size: clamp(1.4rem, 2.8vw, 1.9rem);
+    }
+
+    /* FULLSCREEN RESPONSIVE CONTAINER */
+    .container {
+      max-width: 1420px;
+      width: min(1420px, 94vw);
+      margin: 0 auto;
+      padding: 0 clamp(14px, 2.5vw, 32px);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* BADGES */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: rgba(228, 23, 47, 0.12);
+      color: var(--accent-rose);
+      border: 1px solid rgba(228, 23, 47, 0.28);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .badge-gold {
+      background: rgba(245, 158, 11, 0.12);
+      color: #FCD34D;
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+    .badge-emerald {
+      background: rgba(16, 185, 129, 0.12);
+      color: #34D399;
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+
+    /* BUTTONS SYSTEM */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 12px 24px;
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 0.90rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+      user-select: none;
+      white-space: nowrap;
+    }
+    .btn:active {
+      transform: scale(0.96);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent-red), #9E0E1F);
+      color: #FFF;
+      box-shadow: 0 4px 20px var(--accent-red-glow);
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, var(--accent-red-hover), #BA1125);
+      box-shadow: 0 8px 28px var(--accent-red-glow);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-sm);
+    }
+    .btn-secondary:hover {
+      border-color: var(--accent-red);
+      color: var(--accent-rose);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25D366, #1EBE5D);
+      color: #000;
+      font-weight: 800;
+      box-shadow: 0 4px 18px rgba(37, 211, 102, 0.35);
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .btn-whatsapp:hover {
+      background: linear-gradient(135deg, #28E16D, #20BA5A);
+      box-shadow: 0 8px 28px rgba(37, 211, 102, 0.5);
+      transform: translateY(-2px);
+      color: #000;
+    }
+
+    .btn-icon {
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-main);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .btn-icon:hover {
+      border-color: var(--accent-red);
+      color: var(--accent-rose);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+
+    /* SITE HEADER & ULTRA RESPONSIVE NAVBAR */
+    header.site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7, 9, 12, 0.90);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 12px 0;
+      transition: var(--transition);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent-red), #800A17);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 900;
+      font-size: 1.4rem;
+      color: #fff;
+      box-shadow: 0 4px 18px var(--accent-red-glow);
+      position: relative;
+      overflow: hidden;
+    }
+    .brand-logo::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 50%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.25), transparent);
+    }
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-name {
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+    .brand-tag {
+      font-size: 0.72rem;
+      color: var(--accent-rose);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+    }
+
+    .nav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(14, 19, 26, 0.85);
+      padding: 5px;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-subtle);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .nav-tabs::-webkit-scrollbar { display: none; }
+
+    @media (max-width: 1040px) {
+      .nav-tabs {
+        display: none;
+      }
+    }
+
+    .nav-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      font-family: inherit;
+      font-size: 0.86rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .nav-tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.06);
+    }
+    .nav-tab-btn.active {
+      background: var(--accent-red);
+      color: #fff;
+      box-shadow: 0 4px 16px var(--accent-red-glow);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .mobile-menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-main);
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    @media (max-width: 1040px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+      }
+    }
+
+    /* MOBILE NAVIGATION DRAWER */
+    .mobile-nav-drawer {
+      display: none;
+      position: fixed;
+      top: 68px;
+      left: 0;
+      right: 0;
+      background: rgba(14, 19, 26, 0.98);
+      border-bottom: 1px solid var(--border-subtle);
+      backdrop-filter: blur(24px);
+      padding: 18px 20px;
+      z-index: 99;
+      box-shadow: var(--shadow-lg);
+      animation: slideDown 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .mobile-nav-drawer.open {
+      display: block;
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .mobile-nav-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    @media (max-width: 480px) {
+      .mobile-nav-links {
+        grid-template-columns: 1fr;
+      }
+    }
+    .mobile-tab-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      color: var(--text-main);
+      font-size: 0.90rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .mobile-tab-btn.active {
+      border-color: var(--accent-red);
+      background: rgba(228, 23, 47, 0.18);
+      color: var(--accent-rose);
+    }
+
+    /* ==============================================================
+       CINEMATIC 2000IQ HERO SECTION WITH MULTI-LAYER DEPTH
+       ============================================================== */
+    .hero-section {
+      padding: clamp(24px, 4vw, 48px) 0 28px;
+      position: relative;
+    }
+
+    .hero-container {
+      background: linear-gradient(145deg, rgba(21, 28, 38, 0.92), rgba(12, 16, 22, 0.97));
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: var(--radius-xl);
+      padding: clamp(28px, 5vw, 64px);
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      backdrop-filter: blur(16px);
+      min-height: min(780px, 82vh);
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      .hero-container {
+        padding: 28px 18px;
+        min-height: auto;
+      }
+    }
+
+    /* LAYER 1: AMBIENT SPOTLIGHTS INSIDE HERO */
+    .hero-spotlight {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(90px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .hero-spotlight-1 {
+      top: 10%;
+      left: 20%;
+      width: 320px;
+      height: 320px;
+      background: rgba(228, 23, 47, 0.22);
+    }
+    .hero-spotlight-2 {
+      bottom: 10%;
+      right: 15%;
+      width: 380px;
+      height: 380px;
+      background: rgba(245, 158, 11, 0.16);
+    }
+
+    /* LAYER 2: ROTATING CELESTIAL SACRED GEOMETRY ORBIT RING */
+    .hero-mandala-orbit {
+      position: absolute;
+      top: 50%;
+      left: 220px;
+      width: 520px;
+      height: 520px;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.16;
+      animation: orbitRotate 60s linear infinite;
+    }
+    @media (max-width: 1024px) {
+      .hero-mandala-orbit {
+        left: 50%;
+        width: 360px;
+        height: 360px;
+      }
+    }
+    @keyframes orbitRotate {
+      from { transform: translate(-50%, -50%) rotate(0deg); }
+      to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    /* LAYER 3: ATMOSPHERIC HERO BACKGROUND PORTRAIT AT AVERAGE OPACITY */
+    .hero-bg-photo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 62%;
+      max-width: 720px;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.22; /* Average opacity requested */
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      filter: contrast(1.15) grayscale(0.15);
+      mask-image: radial-gradient(ellipse 80% 75% at 55% 45%, black 20%, transparent 80%);
+      -webkit-mask-image: radial-gradient(ellipse 80% 75% at 55% 45%, black 20%, transparent 80%);
+      animation: heroBreathe 14s ease-in-out infinite alternate;
+    }
+    .hero-bg-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 18%;
+    }
+    @keyframes heroBreathe {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.05); }
+    }
+    @media (max-width: 900px) {
+      .hero-bg-photo {
+        width: 100%;
+        opacity: 0.16;
+        mask-image: radial-gradient(ellipse 85% 75% at 50% 35%, black 15%, transparent 80%);
+        -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 35%, black 15%, transparent 80%);
+      }
+    }
+
+    /* LAYER 4: ARCHITECTURAL TYPOGRAPHY WATERMARK */
+    .hero-bg-wordmark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Outfit', sans-serif;
+      font-size: min(20vw, 190px);
+      font-weight: 900;
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.035);
+      letter-spacing: 0.10em;
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 0;
+      user-select: none;
+    }
+
+    /* LAYER 5: HERO CONTENT GRID */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+    @media (min-width: 1024px) {
+      .hero-grid {
+        grid-template-columns: 380px 1fr;
+        gap: 56px;
+      }
+    }
+
+    /* FOREGROUND TRANSPARENT CUTOUT PORTAL FRAME WITH 3D TILT */
+    .profile-cutout-stage {
+      position: relative;
+      width: 330px;
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      perspective: 1000px;
+    }
+
+    .portal-halo {
+      position: absolute;
+      bottom: 0;
+      width: 320px;
+      height: 380px;
+      border-radius: 160px 160px 28px 28px;
+      background: linear-gradient(180deg, rgba(228, 23, 47, 0.35) 0%, rgba(245, 158, 11, 0.15) 50%, rgba(14, 19, 26, 0.94) 100%);
+      border: 2px solid rgba(228, 23, 47, 0.5);
+      box-shadow: 0 0 60px var(--accent-red-glow), inset 0 0 35px rgba(228, 23, 47, 0.3);
+      z-index: 1;
+      overflow: hidden;
+    }
+    .portal-halo::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1px);
+      background-size: 16px 16px;
+      opacity: 0.4;
+    }
+
+    .profile-cutout-img {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 420px;
+      object-fit: contain;
+      object-position: bottom center;
+      filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.85)) drop-shadow(0 0 25px rgba(228, 23, 47, 0.3));
+      animation: floatProfile 5.5s ease-in-out infinite alternate;
+      cursor: pointer;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .profile-cutout-img:hover {
+      transform: scale(1.04) translateY(-6px);
+    }
+    @keyframes floatProfile {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+
+    .floating-chip {
+      position: absolute;
+      z-index: 3;
+      background: rgba(7, 9, 12, 0.94);
+      padding: 7px 15px;
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(12px);
+      white-space: nowrap;
+    }
+    .chip-verified {
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid rgba(16, 185, 129, 0.6);
+      color: #34D399;
+    }
+    .chip-location {
+      top: 40px;
+      right: -10px;
+      border: 1px solid rgba(245, 158, 11, 0.5);
+      color: #FCD34D;
+      animation: floatProfile 5.5s ease-in-out infinite alternate-reverse;
+    }
+    @media (max-width: 480px) {
+      .chip-location {
+        right: 0;
+        top: 20px;
+      }
+    }
+
+    .hero-info {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      z-index: 2;
+    }
+
+    .hero-badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .hero-name {
+      font-size: clamp(2.4rem, 4.8vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.04;
+      color: #fff;
+    }
+    .hero-name span.accent {
+      color: var(--accent-red);
+      display: inline-block;
+      position: relative;
+    }
+
+    .hero-profession {
+      font-size: clamp(1.05rem, 2vw, 1.35rem);
+      font-weight: 600;
+      color: #E2E8F0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hero-profession span.dot {
+      color: var(--accent-red);
+      font-weight: 900;
+    }
+
+    .hero-summary {
+      color: var(--text-muted);
+      font-size: clamp(0.92rem, 1.4vw, 1.05rem);
+      line-height: 1.8;
+      max-width: 720px;
+    }
+
+    .hero-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 4px 0;
+    }
+    .info-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      padding: 9px 18px;
+      border-radius: var(--radius-sm);
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: #E2E8F0;
+      transition: var(--transition);
+    }
+    .info-pill:hover {
+      border-color: var(--accent-red);
+      background: rgba(228, 23, 47, 0.1);
+    }
+    .info-pill svg {
+      width: 16px;
+      height: 16px;
+      color: var(--accent-rose);
+      flex-shrink: 0;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    /* QUICK METRICS GRID */
+    .quick-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 32px;
+    }
+    @media (min-width: 640px) {
+      .quick-stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    @media (min-width: 1040px) {
+      .quick-stats-grid {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+
+    .stat-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 20px 16px;
+      text-align: center;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      background: var(--bg-card);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+    }
+    .stat-val {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: #FFF;
+      line-height: 1.2;
+    }
+    .stat-val.accent {
+      color: var(--accent-red);
+    }
+    .stat-val.gold {
+      color: var(--accent-gold);
+    }
+    .stat-lbl {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 5px;
+      font-weight: 600;
+    }
+
+    /* MAIN CONTENT SECTION */
+    .content-section {
+      padding: 30px 0 80px;
+    }
+
+    .tab-page {
+      display: none;
+      animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .tab-page.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-header {
+      margin-bottom: 28px;
+    }
+    .section-header h2 {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 800;
+      color: #fff;
+    }
+    .section-header h2 span.accent {
+      color: var(--accent-red);
+    }
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+
+    /* CARDS & GRIDS */
+    .cards-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    @media (min-width: 900px) {
+      .cards-grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .cards-grid-3 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    @media (min-width: 640px) {
+      .cards-grid-3 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (min-width: 1040px) {
+      .cards-grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .info-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .info-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .info-card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 22px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .card-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(228, 23, 47, 0.12);
+      border: 1px solid rgba(228, 23, 47, 0.25);
+      color: var(--accent-rose);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .card-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+    .card-title {
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    /* DATA LIST FOR BIODATA SPECIFICATIONS */
+    dl.data-list {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      row-gap: 14px;
+      column-gap: 16px;
+      font-size: 0.92rem;
+    }
+    @media (max-width: 480px) {
+      dl.data-list {
+        grid-template-columns: 1fr;
+        row-gap: 8px;
+      }
+    }
+    dl.data-list dt {
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    dl.data-list dd {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+    dl.data-list dd.highlight {
+      color: #FCD34D;
+    }
+
+    /* TIMELINE STYLES FOR EDUCATION & WORK */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      position: relative;
+      padding-left: 28px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 8px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent-red), transparent);
+    }
+    .timeline-item {
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -28px;
+      top: 6px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--bg-dark);
+      border: 3px solid var(--accent-red);
+      box-shadow: 0 0 10px var(--accent-red-glow);
+    }
+    .timeline-title {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: #fff;
+    }
+    .timeline-sub {
+      color: var(--accent-rose);
+      font-size: 0.86rem;
+      font-weight: 600;
+      margin: 2px 0 6px;
+    }
+    .timeline-desc {
+      color: var(--text-muted);
+      font-size: 0.90rem;
+      line-height: 1.65;
+    }
+
+    /* PHOTO GALLERY STYLES */
+    .gallery-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .gallery-filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filter-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: var(--radius-full);
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .filter-btn:hover {
+      color: #fff;
+      border-color: var(--border-accent);
+    }
+    .filter-btn.active {
+      background: var(--accent-red);
+      border-color: var(--accent-red);
+      color: #fff;
+      box-shadow: 0 4px 14px var(--accent-red-glow);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    @media (max-width: 600px) {
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .gallery-card {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      aspect-ratio: 4/5;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+    .gallery-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--border-accent);
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .gallery-card:hover img {
+      transform: scale(1.06);
+    }
+    .gallery-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, rgba(7, 9, 12, 0.92) 0%, rgba(7, 9, 12, 0.3) 50%, transparent 100%);
+      opacity: 0.9;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      transition: var(--transition);
+    }
+    .gallery-card:hover .gallery-card-overlay {
+      opacity: 1;
+    }
+    .gallery-card-title {
+      font-weight: 700;
+      font-size: 1rem;
+      color: #fff;
+    }
+    .gallery-card-tag {
+      font-size: 0.74rem;
+      color: var(--accent-rose);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    /* FULLSCREEN LIGHTBOX MODAL */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 6, 8, 0.96);
+      backdrop-filter: blur(24px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .lightbox-modal.open {
+      display: flex;
+      opacity: 1;
+    }
+    .lightbox-content-box {
+      max-width: 90vw;
+      max-height: 88vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .lightbox-img-wrapper {
+      max-width: 100%;
+      max-height: 76vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox-img-wrapper img {
+      max-width: 100%;
+      max-height: 76vh;
+      border-radius: var(--radius-md);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
+      object-fit: contain;
+    }
+    .lightbox-caption {
+      margin-top: 14px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.05rem;
+      text-align: center;
+    }
+    .lightbox-nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+      z-index: 10;
+    }
+    .lightbox-nav-btn:hover {
+      background: var(--accent-red);
+      border-color: var(--accent-red);
+    }
+    .lightbox-prev { left: -64px; }
+    .lightbox-next { right: -64px; }
+    @media (max-width: 768px) {
+      .lightbox-prev { left: 10px; }
+      .lightbox-next { right: 10px; }
+    }
+
+    .lightbox-close-btn {
+      position: absolute;
+      top: -50px;
+      right: 0;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+    .lightbox-close-btn:hover {
+      background: var(--accent-red);
+      border-color: var(--accent-red);
+    }
+
+    /* CONTACT SECTION */
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 26px;
+    }
+    @media (min-width: 860px) {
+      .contact-layout {
+        grid-template-columns: 1.1fr 0.9fr;
+      }
+    }
+
+    .contact-card-main {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: clamp(24px, 4vw, 36px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+    .contact-cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 18px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      color: var(--text-main);
+      transition: var(--transition);
+    }
+    .contact-item:hover {
+      border-color: var(--border-accent);
+      background: var(--bg-card-hover);
+      transform: translateX(4px);
+    }
+    .contact-item svg.icon {
+      width: 20px;
+      height: 20px;
+      color: var(--accent-red);
+      flex-shrink: 0;
+    }
+    .contact-item-text {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .contact-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .contact-val {
+      font-size: 0.94rem;
+      font-weight: 600;
+    }
+
+    /* FOOTER */
+    footer.site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: rgba(7, 9, 12, 0.95);
+      padding: 36px 0 90px;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      text-align: center;
+    }
+
+    /* STICKY BOTTOM QUICK ACTION BAR FOR MOBILE */
+    .mobile-bottom-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(14, 19, 26, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--border-subtle);
+      padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      z-index: 90;
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.6);
+    }
+    @media (max-width: 768px) {
+      .mobile-bottom-bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto auto;
+        gap: 8px;
+        align-items: center;
+      }
+    }
+    .mobile-bottom-bar .btn {
+      padding: 10px 12px;
+      font-size: 0.82rem;
+    }
+
+    /* TOAST NOTIFICATION */
+    .toast-box {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--bg-card);
+      border: 1px solid var(--accent-red);
+      color: #fff;
+      padding: 14px 22px;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 2000;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: var(--transition);
+      pointer-events: none;
+    }
+    .toast-box.show {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    /* PRINT & PDF GENERATION MODE */
+    @media print {
+      body {
+        background: #FFF !important;
+        color: #000 !important;
+      }
+      header.site-header,
+      footer.site-footer,
+      .ambient-glow,
+      #ambientCanvas,
+      .header-actions,
+      .mobile-menu-toggle,
+      .mobile-bottom-bar,
+      .gallery-filter-bar,
+      .btn {
+        display: none !important;
+      }
+      .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+      .tab-page {
+        display: block !important;
+        page-break-after: always;
+      }
+      .hero-container, .info-card, .stat-card {
+        background: #F8FAFC !important;
+        border: 1px solid #CBD5E1 !important;
+        color: #000 !important;
+        box-shadow: none !important;
+      }
+      .hero-name, h2, h3, .stat-val, .timeline-title {
+        color: #0F172A !important;
+      }
+      dl.data-list dt, .stat-lbl, .timeline-sub, .hero-summary, .contact-label {
+        color: #475569 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- FULL SCREEN CANVAS PARTICLES & AMBIENT GLOW EFFECTS -->
+  <canvas id="ambientCanvas"></canvas>
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- SITE HEADER & RESPONSIVE NAVBAR -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      
+      <div class="brand" onclick="showTab('home')">
+        <div class="brand-logo">K</div>
+        <div class="brand-text">
+          <span class="brand-name">KAPIN PATEL</span>
+          <span class="brand-tag">Matrimonial Biodata</span>
+        </div>
+      </div>
+
+      <!-- DESKTOP NAV TABS -->
+      <nav class="nav-tabs" id="navTabs">
+        <button class="nav-tab-btn active" onclick="showTab('home')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Overview
+        </button>
+        <button class="nav-tab-btn" onclick="showTab('personal')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Personal &amp; Kundali
+        </button>
+        <button class="nav-tab-btn" onclick="showTab('career')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> Education &amp; Work
+        </button>
+        <button class="nav-tab-btn" onclick="showTab('family')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg> Family
+        </button>
+        <button class="nav-tab-btn" onclick="showTab('lifestyle')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Lifestyle &amp; Partner
+        </button>
+        <button class="nav-tab-btn" onclick="showTab('gallery')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg> Gallery
+        </button>
+        <button class="nav-tab-btn" onclick="showTab('contact')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Contact
+        </button>
+      </nav>
+
+      <!-- HEADER ACTIONS -->
+      <div class="header-actions">
+        <!-- FULLSCREEN TOGGLE BUTTON -->
+        <button class="btn-icon" id="fullscreenToggleBtn" onclick="toggleFullScreen()" title="Toggle Fullscreen Mode">
+          <svg id="fsEnterIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          <svg id="fsExitIcon" style="display:none;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
+        </button>
+
+        <button class="btn-icon" onclick="window.print()" title="Download PDF / Print Biodata">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+        <a class="btn btn-primary" href="https://wa.me/916261221355?text=Namaste%20Kapin%20Ji,%20we%20reviewed%20your%20Matrimonial%20Biodata%20profile%20and%20would%20love%20to%20connect." target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+        <button class="mobile-menu-toggle" id="mobileMenuBtn" onclick="toggleMobileMenu()" title="Toggle Navigation Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- MOBILE NAVIGATION DROPDOWN DRAWER -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer">
+      <div class="mobile-nav-links">
+        <button class="mobile-tab-btn active" onclick="showTab('home'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Overview</span>
+        </button>
+        <button class="mobile-tab-btn" onclick="showTab('personal'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span>Kundali &amp; Birth</span>
+        </button>
+        <button class="mobile-tab-btn" onclick="showTab('career'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <span>Education &amp; Work</span>
+        </button>
+        <button class="mobile-tab-btn" onclick="showTab('family'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg>
+          <span>Family Details</span>
+        </button>
+        <button class="mobile-tab-btn" onclick="showTab('lifestyle'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span>Partner Preference</span>
+        </button>
+        <button class="mobile-tab-btn" onclick="showTab('gallery'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Photo Gallery</span>
+        </button>
+        <button class="mobile-tab-btn" onclick="showTab('contact'); toggleMobileMenu();">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Contact Info</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ==============================================================
+         CINEMATIC HERO SECTION
+         ============================================================== -->
+    <section class="hero-section">
+      <div class="hero-container" id="heroContainer">
+        
+        <!-- LAYER 1: AMBIENT SPOTLIGHTS -->
+        <div class="hero-spotlight hero-spotlight-1"></div>
+        <div class="hero-spotlight hero-spotlight-2"></div>
+
+        <!-- LAYER 2: CELESTIAL SACRED GEOMETRY MANDALA RING -->
+        <div class="hero-mandala-orbit">
+          <svg viewBox="0 0 500 500" fill="none" stroke="currentColor" style="color: #F59E0B;">
+            <circle cx="250" cy="250" r="230" stroke-width="1.5" stroke-dasharray="8 8"/>
+            <circle cx="250" cy="250" r="180" stroke-width="1" stroke-dasharray="4 4"/>
+            <circle cx="250" cy="250" r="120" stroke-width="1.5"/>
+            <polygon points="250,20 450,250 250,480 50,250" stroke-width="1" stroke="rgba(228,23,47,0.6)"/>
+            <polygon points="250,50 420,250 250,450 80,250" stroke-width="0.8" stroke="rgba(245,158,11,0.5)"/>
+          </svg>
+        </div>
+
+        <!-- LAYER 3: ATMOSPHERIC HERO BACKGROUND PORTRAIT AT AVERAGE OPACITY -->
+        <div class="hero-bg-photo">
+          <img src="assets/images/profile_transparent.png" alt="Kapin Background Silhouette">
+        </div>
+
+        <!-- LAYER 4: ARCHITECTURAL WATERMARK -->
+        <div class="hero-bg-wordmark">KAPIN PATEL</div>
+
+        <!-- LAYER 5: HERO MAIN CONTENT GRID -->
+        <div class="hero-grid">
+          
+          <!-- FOREGROUND PROFILE CUTOUT STAGE WITH 3D TILT -->
+          <div class="profile-cutout-stage" id="cutoutStage">
+            <div class="portal-halo"></div>
+            <img class="profile-cutout-img" id="profileCutoutImg" src="assets/images/profile_transparent.png" alt="Kapin Kumar Patel Transparent Portrait" onclick="openLightbox('assets/images/profile_transparent.png', 'Kapin Kumar Patel — Portrait')">
+            
+            <div class="floating-chip chip-location">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Rewa · Ahmedabad</span>
+            </div>
+
+            <div class="floating-chip chip-verified">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>100% Verified Profile</span>
+            </div>
+          </div>
+
+          <!-- HERO DETAILS -->
+          <div class="hero-info">
+            <div class="hero-badges-row">
+              <span class="badge">Hindu · Patel (Koilaha)</span>
+              <span class="badge badge-gold">B.Tech IT (8.18 GPA)</span>
+              <span class="badge badge-emerald">6' 0" · 25 Yrs</span>
+            </div>
+
+            <div>
+              <div class="script-font">Namaste, I'm</div>
+              <h1 class="hero-name">KAPIN KUMAR <span class="accent">PATEL</span></h1>
+              <div class="hero-profession">
+                Software Developer <span class="dot">•</span> Freelance UI/UX Designer
+              </div>
+            </div>
+
+            <p class="hero-summary">
+              B.Tech graduate in Information Technology, building scalable modern web applications in Ahmedabad. Rooted in traditional Patel family ethos with a forward-thinking, cultured mindset. Seeking a kind, educated, and family-centered partner to build a meaningful, joyful life together.
+            </p>
+
+            <div class="hero-pills">
+              <span class="info-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Origin: Rewa, M.P.</span>
+              <span class="info-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> Current: Ahmedabad, Gujarat</span>
+              <span class="info-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 19 Aug 2001 (4:00 PM)</span>
+              <span class="info-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-4-3-8-6.5-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4.5-4 8-8 11z"/></svg> Non-Manglik</span>
+            </div>
+
+            <div class="hero-cta-group">
+              <a class="btn btn-whatsapp" href="https://wa.me/916261221355?text=Namaste%20Kapin%20Ji,%20we%20reviewed%20your%20Matrimonial%20Biodata%20profile%20and%20would%20love%20to%20connect." target="_blank" rel="noopener">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                <span>WhatsApp Message</span>
+              </a>
+              <a class="btn btn-secondary" href="tel:+916261221355">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Call Directly</span>
+              </a>
+              <button class="btn btn-secondary" onclick="showTab('gallery')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                <span>View Photos</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- KEY METRICS STATS CARDS -->
+      <div class="quick-stats-grid">
+        <div class="stat-card">
+          <div class="stat-val accent">6' 0"</div>
+          <div class="stat-lbl">Height (183 cm)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">25 Yrs</div>
+          <div class="stat-lbl">19 Aug 2001</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val gold">B.Tech</div>
+          <div class="stat-lbl">IT (8.18 GPA)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">3+ Yrs</div>
+          <div class="stat-lbl">Software Dev</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">Patel</div>
+          <div class="stat-lbl">Koilaha Gotra</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val accent">Rewa / AHD</div>
+          <div class="stat-lbl">M.P. &amp; Gujarat</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         CONTENT TABS SECTION
+         ============================================================== -->
+    <section class="content-section">
+
+      <!-- 1. OVERVIEW PAGE -->
+      <div class="tab-page active" id="tab-home">
+        <div class="cards-grid-2">
+          
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+              <h3 class="card-title">About Kapin</h3>
+            </div>
+            <p style="color:var(--text-muted); font-size:0.94rem; line-height:1.75; margin-bottom:18px;">
+              Born in Kuiyan Kalan (Rewa, Madhya Pradesh) into an agricultural Patel family that values integrity, education, and humility. Completed schooling and engineering in Bhopal with distinction, currently working as a Software Engineer in Ahmedabad, specializing in Python/Django, .NET, and React technologies.
+            </p>
+            <dl class="data-list">
+              <dt>Complexion</dt><dd>Fair &amp; Healthy</dd>
+              <dt>Marital Status</dt><dd>Never Married</dd>
+              <dt>Diet / Habits</dt><dd>Pure Vegetarian / Non-Smoker / Teetotaler</dd>
+              <dt>Languages</dt><dd>Hindi, English, Bagheli, Bundeli, Bhojpuri, Maithili</dd>
+            </dl>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
+              <h3 class="card-title">Family Highlights</h3>
+            </div>
+            <dl class="data-list">
+              <dt>Father</dt><dd>Shree Shivanand Patel (Farmer / Krishak)</dd>
+              <dt>Mother</dt><dd>Smt. Kalpana Patel (Homemaker)</dd>
+              <dt>Sibling</dt><dd>1 Younger Brother (Electrical Engineer)</dd>
+              <dt>Native Ancestral</dt><dd>Kuiyan Kalan, Rewa, Madhya Pradesh</dd>
+              <dt>Current Base</dt><dd>Ahmedabad / Gandhinagar, Gujarat</dd>
+              <dt>Family Values</dt><dd>Traditional Sanatan Values with Modern Vision</dd>
+            </dl>
+          </div>
+
+        </div>
+
+        <!-- QUICK NAV DETAIL BUTTONS -->
+        <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
+          <div class="stat-card" style="text-align: left; cursor: pointer; padding: 20px;" onclick="showTab('personal')">
+            <div style="color:var(--accent-red); font-weight: 700; font-size: 1rem; margin-bottom: 4px;">Personal &amp; Kundali →</div>
+            <p style="color:var(--text-muted); font-size: 0.82rem;">Birth time, height, gotra &amp; astrology</p>
+          </div>
+          <div class="stat-card" style="text-align: left; cursor: pointer; padding: 20px;" onclick="showTab('career')">
+            <div style="color:var(--accent-gold); font-weight: 700; font-size: 1rem; margin-bottom: 4px;">Education &amp; Career →</div>
+            <p style="color:var(--text-muted); font-size: 0.82rem;">B.Tech IT, software projects &amp; skills</p>
+          </div>
+          <div class="stat-card" style="text-align: left; cursor: pointer; padding: 20px;" onclick="showTab('lifestyle')">
+            <div style="color:var(--accent-rose); font-weight: 700; font-size: 1rem; margin-bottom: 4px;">Partner Preferences →</div>
+            <p style="color:var(--text-muted); font-size: 0.82rem;">Expectations, interests &amp; vision</p>
+          </div>
+          <div class="stat-card" style="text-align: left; cursor: pointer; padding: 20px;" onclick="showTab('gallery')">
+            <div style="color:#34D399; font-weight: 700; font-size: 1rem; margin-bottom: 4px;">Photo Gallery →</div>
+            <p style="color:var(--text-muted); font-size: 0.82rem;">Travel, nature &amp; family photographs</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. PERSONAL & KUNDALI PAGE -->
+      <div class="tab-page" id="tab-personal">
+        <div class="section-header">
+          <h2>Personal &amp; <span class="accent">Kundali Details</span></h2>
+          <p>Birth information, astrological background and physical attributes</p>
+        </div>
+
+        <div class="cards-grid-2">
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+              <h3 class="card-title">Birth &amp; Astrological Details</h3>
+            </div>
+            <dl class="data-list">
+              <dt>Date of Birth</dt><dd>19 August 2001</dd>
+              <dt>Time of Birth</dt><dd>04:00 PM (16:00 Hrs)</dd>
+              <dt>Place of Birth</dt><dd>Rewa, Madhya Pradesh</dd>
+              <dt>Rashi (Moon Sign)</dt><dd>Simha (Leo)</dd>
+              <dt>Nakshatra</dt><dd>Magha (Phase 3)</dd>
+              <dt>Manglik Status</dt><dd class="highlight">Non-Manglik (No Dosha)</dd>
+              <dt>Gotra</dt><dd>Koilaha</dd>
+              <dt>Varna / Caste</dt><dd>Hindu Patel (Kurmi Kshatriya)</dd>
+            </dl>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+              <h3 class="card-title">Physical &amp; Lifestyle Attributes</h3>
+            </div>
+            <dl class="data-list">
+              <dt>Height</dt><dd>6 Feet 0 Inches (183 cm)</dd>
+              <dt>Weight</dt><dd>~72 kg (Athletic / Fit)</dd>
+              <dt>Blood Group</dt><dd>B+ Positive</dd>
+              <dt>Complexion</dt><dd>Fair &amp; Healthy</dd>
+              <dt>Dietary Habit</dt><dd class="highlight">Strictly Vegetarian</dd>
+              <dt>Smoking / Alcohol</dt><dd>No (Never consumed)</dd>
+              <dt>Interests / Hobbies</dt><dd>Coding, UI/UX Design, Travel, Indian Classical &amp; Devotional Music, Cricket</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. EDUCATION & CAREER PAGE -->
+      <div class="tab-page" id="tab-career">
+        <div class="section-header">
+          <h2>Education &amp; <span class="accent">Career Trajectory</span></h2>
+          <p>Academic milestones, engineering background, and software development journey</p>
+        </div>
+
+        <div class="cards-grid-2">
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+              <h3 class="card-title">Educational Milestones</h3>
+            </div>
+            
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-title">Bachelor of Technology (B.Tech) — IT</div>
+                <div class="timeline-sub">SIRT Bhopal (RGPV University) · 2019 – 2023</div>
+                <div class="timeline-desc">Graduated with a stellar 8.18 GPA with Honors. Core focus in Web Architectures, Database Systems, Data Structures &amp; Cloud Technologies.</div>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-title">Higher Secondary Certificate (12th MP Board)</div>
+                <div class="timeline-sub">Government Boys H.S. School, Rewa (M.P.) · 2019</div>
+                <div class="timeline-desc">Secured 75.6% with PCM (Physics, Chemistry, Mathematics) specialization.</div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-title">Secondary School Certificate (10th MP Board)</div>
+                <div class="timeline-sub">Government Boys H.S. School, Rewa (M.P.) · 2017</div>
+                <div class="timeline-desc">Secured 79.4% with distinction in Mathematics and Science.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+              <h3 class="card-title">Professional Experience</h3>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-title">Software Developer &amp; UI Specialist</div>
+                <div class="timeline-sub">Current · Ahmedabad, Gujarat</div>
+                <div class="timeline-desc">Designing and engineering enterprise full-stack web applications using Python/Django, ASP.NET, React, and modern microservice APIs.</div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-title">Freelance Designer &amp; Web Architect</div>
+                <div class="timeline-sub">Remote · Global Clients</div>
+                <div class="timeline-desc">Building responsive digital interfaces, branding identities, and automated workflow systems.</div>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <h4 style="font-size:0.95rem; margin-bottom:10px; color:#fff;">Key Technical Competencies</h4>
+              <div style="display:flex; flex-wrap:wrap; gap:8px;">
+                <span class="info-pill" style="padding:6px 12px; font-size:0.8rem;">Python &amp; Django</span>
+                <span class="info-pill" style="padding:6px 12px; font-size:0.8rem;">C# &amp; .NET</span>
+                <span class="info-pill" style="padding:6px 12px; font-size:0.8rem;">React.js &amp; JS</span>
+                <span class="info-pill" style="padding:6px 12px; font-size:0.8rem;">SQL / PostgreSQL</span>
+                <span class="info-pill" style="padding:6px 12px; font-size:0.8rem;">REST APIs &amp; Cloud</span>
+                <span class="info-pill" style="padding:6px 12px; font-size:0.8rem;">UI/UX &amp; Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. FAMILY DETAILS PAGE -->
+      <div class="tab-page" id="tab-family">
+        <div class="section-header">
+          <h2>Family <span class="accent">Background</span></h2>
+          <p>Our roots, heritage, respected parents, and family values</p>
+        </div>
+
+        <div class="cards-grid-2">
+          
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
+              <h3 class="card-title">Immediate Family</h3>
+            </div>
+            <dl class="data-list">
+              <dt>Father's Name</dt><dd>Shree Shivanand Patel</dd>
+              <dt>Father's Occupation</dt><dd>Progressive Farmer &amp; Landowner (Krishak)</dd>
+              <dt>Mother's Name</dt><dd>Smt. Kalpana Patel</dd>
+              <dt>Mother's Occupation</dt><dd>Homemaker (Dedicated to Family Values)</dd>
+              <dt>Brothers</dt><dd>1 Younger Brother (Electrical Engineer)</dd>
+              <dt>Sisters</dt><dd>None</dd>
+              <dt>Family Type</dt><dd>Nuclear family rooted in strong extended clan</dd>
+              <dt>Family Status</dt><dd>Upper-Middle Class, Respected Patel Clan</dd>
+            </dl>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+              <h3 class="card-title">Ancestral Native &amp; Residence</h3>
+            </div>
+            <dl class="data-list">
+              <dt>Ancestral Village</dt><dd>Gram Kuiyan Kalan</dd>
+              <dt>Post / Tehsil</dt><dd>Post Kuiyan, Tehsil Huzur</dd>
+              <dt>District</dt><dd>Rewa, Madhya Pradesh (Pin: 486001)</dd>
+              <dt>Current Base</dt><dd>Ahmedabad, Gujarat</dd>
+              <dt>Land &amp; Assets</dt><dd>Ancestral Agricultural Land &amp; Residential Properties in Rewa</dd>
+            </dl>
+
+            <div style="margin-top:20px; padding:14px; background:rgba(228,23,47,0.08); border-radius:var(--radius-sm); border:1px solid rgba(228,23,47,0.2);">
+              <p style="font-size:0.88rem; color:#E2E8F0; line-height:1.6;">
+                <strong>Family Ethos:</strong> Our family strongly upholds honest work, traditional Hindu sanskars, mutual respect, and progressive education for the future generation.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 5. LIFESTYLE & PARTNER PREFERENCE PAGE -->
+      <div class="tab-page" id="tab-lifestyle">
+        <div class="section-header">
+          <h2>Lifestyle &amp; <span class="accent">Partner Expectations</span></h2>
+          <p>Personal outlook, lifestyle choices, and envisioned qualities in a life partner</p>
+        </div>
+
+        <div class="cards-grid-2">
+          
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+              <h3 class="card-title">Desired Partner Qualities</h3>
+            </div>
+            <ul style="list-style:none; display:flex; flex-direction:column; gap:12px; color:var(--text-muted); font-size:0.92rem;">
+              <li style="display:flex; align-items:flex-start; gap:10px;">
+                <span style="color:var(--accent-red); font-weight:bold;">✔</span>
+                <span><strong>Education:</strong> Graduate or Post-Graduate in any respectable field (Engineering, Management, Science, Teaching, Medical, etc.).</span>
+              </li>
+              <li style="display:flex; align-items:flex-start; gap:10px;">
+                <span style="color:var(--accent-red); font-weight:bold;">✔</span>
+                <span><strong>Community:</strong> Patel / Kurmi Samaj preferred, with high cultural harmony.</span>
+              </li>
+              <li style="display:flex; align-items:flex-start; gap:10px;">
+                <span style="color:var(--accent-red); font-weight:bold;">✔</span>
+                <span><strong>Nature:</strong> Well-mannered, empathetic, family-centric with a positive outlook toward life and mutual career growth.</span>
+              </li>
+              <li style="display:flex; align-items:flex-start; gap:10px;">
+                <span style="color:var(--accent-red); font-weight:bold;">✔</span>
+                <span><strong>Lifestyle:</strong> Vegetarian diet, respect for Sanatan cultural values, and open communication.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div>
+              <h3 class="card-title">Our Vision for Marriage</h3>
+            </div>
+            <p style="color:var(--text-muted); font-size:0.94rem; line-height:1.75; margin-bottom:14px;">
+              Marriage to us is a sacred partnership between two individuals and the harmonious union of two families. We believe in mutual respect, shared laughter, encouraging each other's aspirations, and standing together through all walks of life.
+            </p>
+            <div style="background:var(--bg-surface); padding:16px; border-radius:var(--radius-sm); border:1px solid var(--border-subtle);">
+              <div class="script-font" style="font-size:1.4rem; margin-bottom:4px;">"Building a lifetime of trust, growth &amp; happiness."</div>
+              <div style="font-size:0.82rem; color:var(--text-dim);">— Kapin &amp; Family</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 6. PHOTO GALLERY PAGE -->
+      <div class="tab-page" id="tab-gallery">
+        <div class="section-header">
+          <h2>Visual <span class="accent">Photo Gallery</span></h2>
+          <p>Portraits, nature travels, casual moments, and memories</p>
+        </div>
+
+        <!-- GALLERY FILTER PILLS & UPLOAD LOCAL TOOL -->
+        <div class="gallery-filter-bar">
+          <div class="gallery-filter-pills">
+            <button class="filter-btn active" onclick="filterGallery('all', this)">All Photos</button>
+            <button class="filter-btn" onclick="filterGallery('portrait', this)">Portraits</button>
+            <button class="filter-btn" onclick="filterGallery('travel', this)">Travel &amp; Nature</button>
+            <button class="filter-btn" onclick="filterGallery('casual', this)">Casual</button>
+          </div>
+
+          <div>
+            <label class="btn btn-secondary" style="font-size:0.82rem; padding:8px 16px; cursor:pointer;" title="Add new photo from local device for instant preview">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              <span>Preview Local Photo</span>
+              <input type="file" id="localPhotoInput" accept="image/*" style="display:none;" onchange="handleLocalPhotoUpload(event)">
+            </label>
+          </div>
+        </div>
+
+        <!-- DYNAMIC GALLERY CONTAINER -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Populated by JavaScript from GALLERY_IMAGES -->
+        </div>
+      </div>
+
+      <!-- 7. CONTACT & COMMUNICATION PAGE -->
+      <div class="tab-page" id="tab-contact">
+        <div class="section-header">
+          <h2>Get in <span class="accent">Direct Touch</span></h2>
+          <p>Feel free to reach out via WhatsApp, phone call, or email for matrimonial inquiries</p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <div class="contact-card-main">
+            <div>
+              <div class="badge" style="margin-bottom:14px;">Direct Matrimonial Inquiry</div>
+              <h3 style="font-size:1.8rem; font-weight:800; color:#fff; margin-bottom:10px;">Let's Connect Directly</h3>
+              <p style="color:var(--text-muted); font-size:0.96rem; line-height:1.7;">
+                We warmly welcome respectful matrimonial inquiries from prospective brides and families. For faster communication, you can message directly on WhatsApp or arrange a phone call.
+              </p>
+            </div>
+
+            <div class="contact-cta-buttons">
+              <a class="btn btn-whatsapp" href="https://wa.me/916261221355?text=Namaste%20Kapin%20Ji,%20we%20reviewed%20your%20Matrimonial%20Biodata%20profile%20and%20would%20love%20to%20connect." target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                <span>WhatsApp Message</span>
+              </a>
+              <a class="btn btn-secondary" href="tel:+916261221355">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>+91 62612 21355</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-list">
+            <div class="contact-item" onclick="copyToClipboard('+916261221355', 'Phone number copied!')" style="cursor:pointer;" title="Click to copy phone number">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <div class="contact-item-text">
+                <span class="contact-label">Primary Mobile / Calling</span>
+                <span class="contact-val">+91 62612 21355</span>
+              </div>
+              <span style="font-size:0.75rem; color:var(--accent-rose); font-weight:700;">COPY</span>
+            </div>
+
+            <a class="contact-item" href="https://wa.me/916261221355" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              <div class="contact-item-text">
+                <span class="contact-label">WhatsApp Contact</span>
+                <span class="contact-val">+91 62612 21355</span>
+              </div>
+              <span style="font-size:0.75rem; color:#34D399; font-weight:700;">CHAT →</span>
+            </a>
+
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div class="contact-item-text">
+                <span class="contact-label">Current Address</span>
+                <span class="contact-val">Ahmedabad / Gandhinagar, Gujarat, India</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              <div class="contact-item-text">
+                <span class="contact-label">Permanent Native Address</span>
+                <span class="contact-val">Kuiyan Kalan, Huzur, Rewa, M.P. 486001</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- STICKY BOTTOM ACTION BAR FOR MOBILE (< 768px) -->
+  <div class="mobile-bottom-bar">
+    <a class="btn btn-whatsapp" href="https://wa.me/916261221355?text=Namaste%20Kapin%20Ji,%20we%20reviewed%20your%20Matrimonial%20Biodata%20profile%20and%20would%20love%20to%20connect." target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a class="btn btn-secondary" href="tel:+916261221355">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Call</span>
+    </a>
+    <button class="btn-icon" onclick="showTab('gallery')" title="View Photos">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+    </button>
+    <button class="btn-icon" onclick="toggleFullScreen()" title="Fullscreen">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+    </button>
+  </div>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox()">
+    <div class="lightbox-content-box" onclick="event.stopPropagation()">
+      <button class="lightbox-close-btn" onclick="closeLightbox()" title="Close (Esc)">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      
+      <button class="lightbox-nav-btn lightbox-prev" onclick="prevLightboxImage(event)" title="Previous Image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+
+      <div class="lightbox-img-wrapper">
+        <img id="lightboxImg" src="" alt="Enlarged gallery photo">
+      </div>
+
+      <button class="lightbox-nav-btn lightbox-next" onclick="nextLightboxImage(event)" title="Next Image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-box" id="toastBox">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--accent-red);"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastMsg">Notification message</span>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="serif-title" style="font-size:1.1rem; color:#fff; letter-spacing:0.08em;">KAPIN KUMAR PATEL</div>
+      <p style="font-size:0.82rem; color:var(--text-muted); max-width:540px;">
+        Matrimonial &amp; Professional Biodata. All personal, educational, and astrological particulars provided in good faith.
+      </p>
+      <div style="font-size:0.75rem; color:var(--text-dim); margin-top:8px;">
+        © 2026 Kapin Kumar Patel · Handcrafted with Excellence · Ahmedabad, Gujarat
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==============================================================
+       SCRIPTS: GALLERY DATA, 3D TILT, PARTICLES, FULLSCREEN, TABS
+       ============================================================== -->
+  <script>
+    // -------------------------------------------------------------
+    // 1. DYNAMIC GALLERY DATASET (Easy to add/replace photos in assets/images/)
+    // -------------------------------------------------------------
+    const GALLERY_IMAGES = [
+      {
+        src: 'assets/images/profile_transparent.png',
+        title: 'Studio Portrait',
+        caption: 'Kapin Kumar Patel — Formal Studio Portrait',
+        category: 'portrait'
+      },
+      {
+        src: 'assets/images/gallery_2_chitrakoot_falls.jpg',
+        title: 'Chitrakoot Falls',
+        caption: 'Scenic waterfall landscape & travel',
+        category: 'travel'
+      },
+      {
+        src: 'assets/images/gallery_3_waterfall_road.jpg',
+        title: 'Waterfall Journey',
+        caption: 'Exploring natural waterfall vistas',
+        category: 'travel'
+      },
+      {
+        src: 'assets/images/gallery_5_open_skies.jpg',
+        title: 'Open Skies & Horizons',
+        caption: 'Peaceful moments under open skies',
+        category: 'travel'
+      },
+      {
+        src: 'assets/images/gallery_6_village_morning.jpg',
+        title: 'Village Morning',
+        caption: 'Ancestral village scenery in Rewa',
+        category: 'casual'
+      },
+      {
+        src: 'assets/images/gallery_8_canyon_friend.jpg',
+        title: 'Canyon Landscape',
+        caption: 'Travel moments and exploration',
+        category: 'travel'
+      }
+    ];
+
+    let currentGalleryList = [...GALLERY_IMAGES];
+    let currentLightboxIndex = 0;
+
+    // -------------------------------------------------------------
+    // 2. GALLERY RENDERER & LIGHTBOX SYSTEM
+    // -------------------------------------------------------------
+    function renderGallery(images) {
+      const grid = document.getElementById('galleryGrid');
+      if (!grid) return;
+      grid.innerHTML = '';
+
+      images.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'gallery-card';
+        card.onclick = () => openLightboxByIndex(index);
+
+        card.innerHTML = `
+          <img src="${item.src}" alt="${item.title}" loading="lazy">
+          <div class="gallery-card-overlay">
+            <span class="gallery-card-tag">${item.category}</span>
+            <div class="gallery-card-title">${item.title}</div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function filterGallery(category, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+
+      if (category === 'all') {
+        currentGalleryList = [...GALLERY_IMAGES];
+      } else {
+        currentGalleryList = GALLERY_IMAGES.filter(img => img.category === category);
+      }
+      renderGallery(currentGalleryList);
+    }
+
+    function handleLocalPhotoUpload(event) {
+      const file = event.target.files && event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const customItem = {
+          src: e.target.result,
+          title: file.name.replace(/\.[^/.]+$/, "") || 'Custom Photo',
+          caption: 'User uploaded preview: ' + file.name,
+          category: 'casual'
+        };
+        GALLERY_IMAGES.unshift(customItem);
+        currentGalleryList = [...GALLERY_IMAGES];
+        renderGallery(currentGalleryList);
+        showToast('Photo added to gallery preview!');
+      };
+      reader.readAsDataURL(file);
+    }
+
+    function openLightboxByIndex(index) {
+      currentLightboxIndex = index;
+      const item = currentGalleryList[index];
+      if (!item) return;
+      openLightbox(item.src, item.caption || item.title);
+    }
+
+    function openLightbox(src, caption) {
+      const modal = document.getElementById('lightboxModal');
+      const img = document.getElementById('lightboxImg');
+      const captionEl = document.getElementById('lightboxCaption');
+      if (!modal || !img) return;
+
+      img.src = src;
+      captionEl.textContent = caption || '';
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    function nextLightboxImage(e) {
+      if (e) e.stopPropagation();
+      currentLightboxIndex = (currentLightboxIndex + 1) % currentGalleryList.length;
+      const item = currentGalleryList[currentLightboxIndex];
+      if (item) {
+        document.getElementById('lightboxImg').src = item.src;
+        document.getElementById('lightboxCaption').textContent = item.caption || item.title;
+      }
+    }
+
+    function prevLightboxImage(e) {
+      if (e) e.stopPropagation();
+      currentLightboxIndex = (currentLightboxIndex - 1 + currentGalleryList.length) % currentGalleryList.length;
+      const item = currentGalleryList[currentLightboxIndex];
+      if (item) {
+        document.getElementById('lightboxImg').src = item.src;
+        document.getElementById('lightboxCaption').textContent = item.caption || item.title;
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      const modal = document.getElementById('lightboxModal');
+      if (modal && modal.classList.contains('open')) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') nextLightboxImage();
+        if (e.key === 'ArrowLeft') prevLightboxImage();
+      }
+    });
+
+    // -------------------------------------------------------------
+    // 3. FULLSCREEN MODE TOGGLE
+    // -------------------------------------------------------------
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          updateFullscreenIcons(true);
+          showToast('Entered Fullscreen Mode');
+        }).catch(err => {
+          console.warn('Fullscreen error:', err);
+        });
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen().then(() => {
+            updateFullscreenIcons(false);
+            showToast('Exited Fullscreen');
+          });
+        }
+      }
+    }
+
+    function updateFullscreenIcons(isFs) {
+      const enterIcon = document.getElementById('fsEnterIcon');
+      const exitIcon = document.getElementById('fsExitIcon');
+      if (enterIcon && exitIcon) {
+        enterIcon.style.display = isFs ? 'none' : 'block';
+        exitIcon.style.display = isFs ? 'block' : 'none';
+      }
+    }
+
+    document.addEventListener('fullscreenchange', () => {
+      updateFullscreenIcons(!!document.fullscreenElement);
+    });
+
+    // -------------------------------------------------------------
+    // 4. TAB NAVIGATION WITH URL HASH & MOBILE DRAWER
+    // -------------------------------------------------------------
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-page').forEach(el => el.classList.remove('active'));
+      const activePage = document.getElementById('tab-' + tabId);
+      if (activePage) {
+        activePage.classList.add('active');
+      }
+
+      // Update desktop buttons
+      document.querySelectorAll('.nav-tab-btn').forEach(btn => {
+        const onClickAttr = btn.getAttribute('onclick') || '';
+        if (onClickAttr.includes("'" + tabId + "'")) {
+          btn.classList.add('active');
+          btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+
+      // Update mobile drawer buttons
+      document.querySelectorAll('.mobile-tab-btn').forEach(btn => {
+        const onClickAttr = btn.getAttribute('onclick') || '';
+        if (onClickAttr.includes("'" + tabId + "'")) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+
+      if (location.hash.replace('#', '') !== tabId) {
+        history.pushState({ tab: tabId }, '', '#' + tabId);
+      }
+    }
+
+    function toggleMobileMenu() {
+      const drawer = document.getElementById('mobileNavDrawer');
+      if (drawer) {
+        drawer.classList.toggle('open');
+      }
+    }
+
+    window.addEventListener('popstate', (e) => {
+      const tab = (e.state && e.state.tab) || location.hash.replace('#', '') || 'home';
+      showTab(tab);
+    });
+
+    // -------------------------------------------------------------
+    // 5. TOAST NOTIFICATIONS & UTILITIES
+    // -------------------------------------------------------------
+    function copyToClipboard(text, successMsg) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(successMsg || 'Copied to clipboard!');
+      }).catch(() => {
+        showToast('Unable to copy');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastBox');
+      const toastMsg = document.getElementById('toastMsg');
+      if (!toast || !toastMsg) return;
+      toastMsg.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2600);
+    }
+
+    // -------------------------------------------------------------
+    // 6. 3D INTERACTIVE TILT PHYSICS FOR HERO PROFILE CUTOUT
+    // -------------------------------------------------------------
+    function init3DTilt() {
+      const stage = document.getElementById('cutoutStage');
+      const img = document.getElementById('profileCutoutImg');
+      if (!stage || !img) return;
+
+      stage.addEventListener('mousemove', (e) => {
+        const rect = stage.getBoundingClientRect();
+        const x = e.clientX - rect.left - rect.width / 2;
+        const y = e.clientY - rect.top - rect.height / 2;
+        const tiltX = (y / rect.height) * -16;
+        const tiltY = (x / rect.width) * 16;
+        img.style.transform = `perspective(800px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale(1.04)`;
+      });
+
+      stage.addEventListener('mouseleave', () => {
+        img.style.transform = '';
+      });
+    }
+
+    // -------------------------------------------------------------
+    // 7. HIGH-IQ CANVAS CONSTELLATION PARTICLES WITH CONNECTING FILAMENTS
+    // -------------------------------------------------------------
+    function initAmbientCanvas() {
+      const canvas = document.getElementById('ambientCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let w = canvas.width = window.innerWidth;
+      let h = canvas.height = window.innerHeight;
+
+      window.addEventListener('resize', () => {
+        w = canvas.width = window.innerWidth;
+        h = canvas.height = window.innerHeight;
+      });
+
+      const particles = [];
+      const particleCount = Math.min(Math.floor(w / 28), 50);
+
+      for (let i = 0; i < particleCount; i++) {
+        particles.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          r: Math.random() * 2 + 0.8,
+          dx: (Math.random() - 0.5) * 0.45,
+          dy: (Math.random() - 0.5) * 0.45,
+          alpha: Math.random() * 0.5 + 0.2
+        });
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, w, h);
+
+        // Draw particle nodes
+        for (let i = 0; i < particles.length; i++) {
+          const p = particles[i];
+          p.x += p.dx;
+          p.y += p.dy;
+          if (p.x < 0) p.x = w;
+          if (p.x > w) p.x = 0;
+          if (p.y < 0) p.y = h;
+          if (p.y > h) p.y = 0;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(228, 23, 47, ${p.alpha})`;
+          ctx.fill();
+
+          // Connect nearby stars with subtle constellation filaments
+          for (let j = i + 1; j < particles.length; j++) {
+            const p2 = particles[j];
+            const dist = Math.hypot(p.x - p2.x, p.y - p2.y);
+            if (dist < 110) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(p2.x, p2.y);
+              ctx.strokeStyle = `rgba(245, 158, 11, ${(1 - dist / 110) * 0.15})`;
+              ctx.lineWidth = 0.8;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(draw);
+      }
+      draw();
+    }
+
+    // -------------------------------------------------------------
+    // INITIALIZATION
+    // -------------------------------------------------------------
+    document.addEventListener('DOMContentLoaded', () => {
+      const initialTab = location.hash.replace('#', '') || 'home';
+      const validTabs = ['home', 'personal', 'career', 'family', 'lifestyle', 'gallery', 'contact'];
+      showTab(validTabs.includes(initialTab) ? initialTab : 'home');
+      renderGallery(GALLERY_IMAGES);
+      initAmbientCanvas();
+      init3DTilt();
+    });
+  </script>
+</body>
+</html>
